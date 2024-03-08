@@ -61,6 +61,7 @@ function EmployeeList() {
               <Nav.Link></Nav.Link>
             </Nav>
             <Nav>
+            <Nav.Link>Total Count :<span className="fw-bold">{employee.length}</span> </Nav.Link>
               <Nav.Link>Search</Nav.Link>
               <Nav.Link>
                 <input
