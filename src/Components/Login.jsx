@@ -86,16 +86,24 @@ function Login() {
           </div>
 
           <div className="form-group row  mb-3">
-            <div className="col-sm-10 offset-sm-2">
-              <button type="submit" className="btn btn-primary">
+           <div className="text-center">
+           <button type="submit" className="btn btn-small btn-primary">
                 Submit
               </button>
-            </div>
+           </div>
+              
+           
           </div>
         </form>
       </div>
       <div className="text-center">
         <h6 style={{ color: "red" }}>{error}</h6>
+      </div>
+      <div className="mt-5 text-center">
+        <h6>For Your Reference</h6>
+        <p>Username: <span className="fw-bold">manoj</span></p>
+        <p>password: <span className="fw-bold">admin</span></p>
+        <small>Note : Only this credentials will work</small>
       </div>
     </>
   );
